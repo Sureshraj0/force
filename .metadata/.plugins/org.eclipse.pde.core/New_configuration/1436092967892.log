@@ -1,0 +1,285 @@
+!SESSION 2015-07-05 16:12:46.665 -----------------------------------------------
+eclipse.buildId=@qualifier@
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.sap.ip.bi.zen.application
+Command-line arguments:  -application com.sap.ip.bi.zen.application -data C:\Users\Arun\Documents\force/../runtime-New_configuration -dev file:C:/Users/Arun/Documents/force/.metadata/.plugins/org.eclipse.pde.core/New_configuration/dev.properties -os win32 -ws win32 -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:12:49.565
+!MESSAGE Could not bind a reference of component com.sap.ip.bi.base.application.DeclaredServiceActivator. The reference is: Reference[name = IActivatorBase, interface = com.sap.ip.bi.base.bundle.IActivatorBase, policy = dynamic, cardinality = 0..n, target = null, bind = addRICActivator, unbind = removeRICActivator]
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:12:49.567
+!MESSAGE Could not bind a reference of component com.sap.ip.bi.base.application.DeclaredServiceActivator. The reference is: Reference[name = IActivatorBase, interface = com.sap.ip.bi.base.bundle.IActivatorBase, policy = dynamic, cardinality = 0..n, target = null, bind = addRICActivator, unbind = removeRICActivator]
+
+!ENTRY org.eclipse.equinox.ds 2 0 2015-07-05 16:13:24.037
+!MESSAGE [SCR - WorkThread] Timeout occurred! Thread was blocked on processing [QueuedJob] WorkPerformer: org.eclipse.equinox.internal.ds.SCRManager@5db5d76e; actionType 1
+
+!ENTRY org.eclipse.equinox.ds 2 0 2015-07-05 16:13:24.050
+!MESSAGE [SCR] Enabling components of bundle com.sap.ip.bi.zen did not complete in 30000 ms 
+
+!ENTRY org.eclipse.osgi 4 0 2015-07-05 16:13:25.635
+!MESSAGE Application error
+!STACK 1
+java.lang.IllegalStateException: Unable to acquire application service. Ensure that the org.eclipse.core.runtime bundle is resolved and started (see config.ini).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:74)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:13:26.035
+!MESSAGE [SCR] Cannot get references for org.apache.felix.scr.ScrService
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:414)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:343)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:13:26.036
+!MESSAGE [SCR] Cannot get references for org.apache.felix.scr.ScrService
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:414)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:343)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:13:26.038
+!MESSAGE Error while building configuration of component Component[
+	name = com.sap.ip.bi.bundle.zen
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = com.sap.ip.bi.zen.internal.runtime.BundleActivator
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ScrService, interface = org.apache.felix.scr.ScrService, policy = dynamic, cardinality = 0..n, target = null, bind = setService, unbind = unsetService]
+	}
+	located in bundle = com.sap.ip.bi.zen_14.0.3 [123]
+]
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:414)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:343)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:13:26.039
+!MESSAGE Error while building configuration of component Component[
+	name = com.sap.ip.bi.bundle.zen
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = com.sap.ip.bi.zen.internal.runtime.BundleActivator
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ScrService, interface = org.apache.felix.scr.ScrService, policy = dynamic, cardinality = 0..n, target = null, bind = setService, unbind = unsetService]
+	}
+	located in bundle = com.sap.ip.bi.zen_14.0.3 [123]
+]
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:414)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:343)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:13:26.041
+!MESSAGE [SCR] Exception occurred while building component configuration of component Component[
+	name = com.sap.ip.bi.bundle.zen.server
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = com.sap.ip.bi.zen.common.server.DesignerWebServerProperties
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [com.sap.ip.bi.zen.webserver.IWebServerProperties]
+	references = null
+	located in bundle = com.sap.ip.bi.zen_14.0.3 [123]
+]
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.ds.InstanceProcess.registerService(InstanceProcess.java:536)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:260)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:13:26.043
+!MESSAGE [SCR] Exception occurred while building component configuration of component Component[
+	name = com.sap.ip.bi.bundle.zen.server
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = com.sap.ip.bi.zen.common.server.DesignerWebServerProperties
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [com.sap.ip.bi.zen.webserver.IWebServerProperties]
+	references = null
+	located in bundle = com.sap.ip.bi.zen_14.0.3 [123]
+]
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.equinox.internal.ds.InstanceProcess.registerService(InstanceProcess.java:536)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:260)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at org.eclipse.equinox.internal.util.impl.tpt.threadpool.Executor.run(Executor.java:70)
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:13:26.049
+!MESSAGE [SCR] Cannot get references for org.apache.felix.scr.ScrService
+!STACK 0
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.checkValid(BundleContextImpl.java:931)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.getServiceReferences(BundleContextImpl.java:498)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:414)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:343)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:13:26.050
+!MESSAGE Error while building configuration of component Component[
+	name = com.sap.ip.bi.bundle.zen
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = com.sap.ip.bi.zen.internal.runtime.BundleActivator
+	state = Disposed
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ScrService, interface = org.apache.felix.scr.ScrService, policy = dynamic, cardinality = 0..n, target = null, bind = setService, unbind = unsetService]
+	}
+	located in bundle = com.sap.ip.bi.zen_14.0.3 [123]
+]
+!STACK 0
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.checkValid(BundleContextImpl.java:931)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.getBundle(BundleContextImpl.java:121)
+	at org.eclipse.equinox.internal.ds.Activator.log(Activator.java:379)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:416)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:343)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.equinox.ds 4 0 2015-07-05 16:13:26.052
+!MESSAGE Error while building configuration of component Component[
+	name = com.sap.ip.bi.bundle.zen
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = true
+	implementation = com.sap.ip.bi.zen.internal.runtime.BundleActivator
+	state = Disposed
+	properties = 
+	serviceFactory = false
+	serviceInterface = null
+	references = {
+		Reference[name = ScrService, interface = org.apache.felix.scr.ScrService, policy = dynamic, cardinality = 0..n, target = null, bind = setService, unbind = unsetService]
+	}
+	located in bundle = com.sap.ip.bi.zen_14.0.3 [123]
+]
+!STACK 0
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.checkValid(BundleContextImpl.java:931)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.getBundle(BundleContextImpl.java:121)
+	at org.eclipse.equinox.internal.ds.Activator.log(Activator.java:379)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bindReference(ServiceComponentProp.java:416)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.bind(ServiceComponentProp.java:218)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:343)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.buildNewlySatisfied(Resolver.java:473)
+	at org.eclipse.equinox.internal.ds.Resolver.enableComponents(Resolver.java:217)
+	at org.eclipse.equinox.internal.ds.SCRManager.performWork(SCRManager.java:816)
+	at org.eclipse.equinox.internal.ds.SCRManager$QueuedJob.dispatch(SCRManager.java:783)
+	at org.eclipse.equinox.internal.ds.WorkThread.run(WorkThread.java:89)
+	at java.lang.Thread.run(Unknown Source)

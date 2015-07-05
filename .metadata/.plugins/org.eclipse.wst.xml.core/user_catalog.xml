@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://www.sap.com/bi/zen/sdk" uri="file:///C:/DS_14SP01_SDK_SAMPLES/sdk.xsd"/>
+</catalog>

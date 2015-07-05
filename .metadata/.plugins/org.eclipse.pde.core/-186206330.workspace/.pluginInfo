@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="446" localization="OSGI-INF/l10n/bundle" name="Design Studio SDK Extension Sample Colored Box" project="com.sap.sample.coloredbox" provider="SAP"/>
+</map>

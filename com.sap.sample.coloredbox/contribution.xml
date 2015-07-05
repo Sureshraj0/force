@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdkExtension
+	xmlns="http://www.sap.com/bi/zen/sdk"
+	id="com.sap.sample.coloredbox"
+	title="Design Studio SDK Extension Sample Colored Box"
+	version="14.1"
+	vendor="SAP">
+	<component
+		id="ColoredBox"
+		title="Colored Box"
+		icon="res/icon.png"
+		handlerType="div"
+		propertySheetPath="res/additional_properties_sheet/additional_properties_sheet.html">
+		<stdInclude kind="d3"/>
+		<jsInclude>res/js/component.js</jsInclude>
+		<cssInclude>res/css/component.css</cssInclude>
+		<property
+			id="color"
+			title="Color"
+			type="Color"
+			group="Display"/>
+		<property
+			id="onclick"
+			title="On Click"
+			type="ScriptText"
+			group="Events"/>
+		<initialization>
+			<defaultValue property="WIDTH">100</defaultValue>
+			<defaultValue property="HEIGHT">100</defaultValue>
+			<defaultValue property="color">red</defaultValue>
+		</initialization>
+	</component>
+</sdkExtension>

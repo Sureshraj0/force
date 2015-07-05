@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="338" localization="launcher" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="339" localization="launcher.win32.win32.x86_64" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="332" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="333" class="org.eclipse.equinox.http.jetty.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="159" name="SAP BusinessObjects Design Studio (panel)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="330" class="org.eclipse.equinox.internal.event.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="158" name="SAP BusinessObjects Design Studio (pagebook)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="331" class="org.eclipse.equinox.internal.frameworkadmin.utils.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="157" name="SAP BusinessObjects Design Studio (input field)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="336" class="org.eclipse.equinox.internal.jsp.jasper.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="156" name="SAP BusinessObjects Design Studio (image chart)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="337" class="org.eclipse.equinox.internal.jsp.jasper.registry.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="155" name="SAP BusinessObjects Design Studio (chart)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="334" class="org.eclipse.equinox.http.registry.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="154" name="Scripting Object">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="335" class="org.eclipse.equinox.http.servlet.internal.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="152" hasExtensibleAPI="true" localization="plugin" name="SAP BusinessObjects Design Studio (dialog)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="153" name="SAP BusinessObjects Design Studio (filter panel)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="150" name="com.sap.ip.bi.zen.rt.components.crosstab.phx-testresources" provider="SAP"/>
+	<bundle bundleID="151" name="SAP BusinessObjects Design Studio (date field)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="202" name="mobile" provider="SAP"/>
+	<bundle bundleID="349" class="org.eclipse.equinox.internal.p2.extensionlocation.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="203" name="mobile-ext" provider="SAP"/>
+	<bundle bundleID="204" name="resource" provider="SAP"/>
+	<bundle bundleID="205" name="SAPUI5 - OSGi aware Resource Handler" provider="SAP"/>
+	<bundle bundleID="200" name="layout" provider="SAP"/>
+	<bundle bundleID="201" name="makit" provider="SAP"/>
+	<bundle bundleID="341" class="org.eclipse.equinox.internal.p2.console.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="169" hasExtensibleAPI="true" name="SAP BusinessObjects Design Studio (framework)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="342" class="org.eclipse.equinox.internal.p2.core.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="343" class="org.eclipse.equinox.internal.p2.director.DirectorActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="344" class="org.eclipse.equinox.internal.p2.director.app.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="166" name="SAP BusinessObjects Design Studio (text field)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="206" name="richtexteditor" provider="SAP"/>
+	<bundle bundleID="345" class="org.eclipse.equinox.internal.provisional.p2.directorywatcher.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="165" name="SAP BusinessObjects Design Studio (tabstrip)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="207" name="shared-utils" provider="SAP"/>
+	<bundle bundleID="346" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="168" name="Design Studio UI5 component" provider="SAP">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="208" name="table" provider="SAP"/>
+	<bundle bundleID="347" class="org.eclipse.equinox.internal.p2.discovery.compatibility.Activator" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="167" name="Text field">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="209" name="themelib_sap_bluecrystal" provider="SAP"/>
+	<bundle bundleID="348" class="org.eclipse.equinox.internal.p2.engine.EngineActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="409" class="org.eclipse.team.internal.ui.TeamUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="161" name="SAP BusinessObjects Design Studio (SDK)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="3" class="com.businessobjects.bimodeler.framework.internal.FrameworkActivator" localization="plugin" name="Framework Plug-in" provider="SAP BusinessObjects"/>
+	<bundle bundleID="408" class="org.eclipse.team.internal.core.TeamPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="162" name="SAP BusinessObjects Design Studio (SDK)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="2" class="com.businessobjects.bimodeler.connection.internal.ConnectionActivator" localization="plugin" name="Connection Plug-in" provider="SAP BusinessObjects"/>
+	<bundle bundleID="163" name="SAP BusinessObjects Design Studio (dropdown list box)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="1" name="bcm" provider="Business Objects">
+		<library name="lib/bcm.jar"/>
+		<library name="lib/certjFIPS.jar"/>
+		<library name="lib/cryptojFIPS.jar"/>
+		<library name="lib/ssljFIPS.jar"/>
+	</bundle>
+	<bundle bundleID="164" name="Text field">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="405" class="org.eclipse.search.internal.ui.SearchPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="7" class="com.sap.connectivity.cs.eclipse.internal.ConnectionServerActivator" name="Connection Server" provider="Business Objects an SAP Company"/>
+	<bundle bundleID="404" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="6" name="BOE SDK" provider="Business Objects">
+		<library name="."/>
+		<library name="lib/aspectjrt-1.6.2.jar"/>
+		<library name="lib/certjFIPS.jar"/>
+		<library name="lib/cryptojFIPS.jar"/>
+		<library name="lib/ssljFIPS.jar"/>
+		<library name="lib/ceaspect.jar"/>
+		<library name="lib/cecore.jar"/>
+		<library name="lib/celib.jar"/>
+		<library name="lib/ceplugins_core.jar"/>
+		<library name="lib/cesearch.jar"/>
+		<library name="lib/cesession.jar"/>
+		<library name="lib/coarsegrain.jar"/>
+		<library name="lib/corbaidl.jar"/>
+		<library name="lib/secSAPR3.jar"/>
+	</bundle>
+	<bundle bundleID="407" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="5" class="com.businessobjects.bimodeler.shared.internal.SharedActivator" localization="plugin" name="Shared Plug-in" provider="SAP BusinessObjects">
+		<library name="."/>
+		<library name="lib/avalon-framework-4.2.0.jar"/>
+		<library name="lib/batik-all-1.7.jar"/>
+		<library name="lib/commons-io-1.3.1.jar"/>
+		<library name="lib/commons-logging-1.0.4.jar"/>
+		<library name="lib/fop.jar"/>
+		<library name="lib/xmlgraphics-commons-1.4.jar"/>
+	</bundle>
+	<bundle bundleID="340" class="org.eclipse.equinox.internal.p2.artifact.repository.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="406" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="160" name="SAP BusinessObjects Design Studio (popup)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="4" class="com.businessobjects.bimodeler.qp.internal.QPActivator" name="Information Designer Query Panel" provider="SAP BusinessObjects">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="401" localization="plugin" name="%osgiUtil" provider="%eclipse.org"/>
+	<bundle bundleID="400" localization="plugin" name="%osgiServices" provider="%eclipse.org"/>
+	<bundle bundleID="403" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="9" name="Data Federator native connection" provider="SAP BusinessObjects"/>
+	<bundle bundleID="402" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="platform.jar"/>
+	</bundle>
+	<bundle bundleID="8" name="Third Party OOC Java" provider="Business Objects">
+		<library name="."/>
+		<library name="lib/ebus405.jar"/>
+		<library name="lib/freessl201.jar"/>
+	</bundle>
+	<bundle bundleID="211" name="themelib_sap_platinum" provider="SAP"/>
+	<bundle bundleID="212" name="unified" provider="SAP"/>
+	<bundle bundleID="210" name="themelib_sap_goldreflection" provider="SAP"/>
+	<bundle bundleID="215" name="vbm" provider="SAP"/>
+	<bundle bundleID="318" class="org.eclipse.emf.edit.ui.EMFEditUIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="216" name="viz" provider="SAP"/>
+	<bundle bundleID="319" class="org.eclipse.emf.transaction.internal.EMFTransactionPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="213" name="utils" provider="SAP"/>
+	<bundle bundleID="316" class="org.eclipse.emf.ecore.xmi.XMIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="214" name="ux3" provider="SAP"/>
+	<bundle bundleID="317" class="org.eclipse.emf.edit.EMFEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="179" name="Passport API" provider="SAP AG"/>
+	<bundle bundleID="219" name="Apache Commons Lang" provider="SpringSource"/>
+	<bundle bundleID="314" class="org.eclipse.emf.ecore.provider.EcoreEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="178" class="com.sap.ip.bi.zen.webserver.WebServerPlugin" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="315" class="org.eclipse.emf.ecore.presentation.EcoreEditorPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="177" class="com.sap.ip.bi.zen.ui.ZenUiPlugin" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="217" name="ushell-lib" provider="SAP"/>
+	<bundle bundleID="312" class="org.eclipse.emf.ecore.change.ChangePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="176" hasExtensibleAPI="true" name="SAP BusinessObjects Design Studio (Scripting)" provider="SAP SE"/>
+	<bundle bundleID="218" name="ushell-lib-testresources" provider="SAP"/>
+	<bundle bundleID="313" class="org.eclipse.emf.ecore.change.provider.ChangeEditPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="310" class="org.eclipse.emf.databinding.DataBindingPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="311" class="org.eclipse.emf.ecore.plugin.EcorePlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="418" class="org.eclipse.ui.internal.ide.IDEWorkbenchPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="e4-ide.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="170" hasExtensibleAPI="true" localization="plugin" name="SAP BusinessObjects Design Studio (rhino framework)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="417" class="org.eclipse.ui.internal.forms.FormsPlugin" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="171" hasExtensibleAPI="true" localization="plugin" name="SAP BusinessObjects Design Studio (shared framework)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="416" class="org.eclipse.ui.externaltools.internal.model.ExternalToolsPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="415" class="org.eclipse.ui.internal.editors.text.EditorsPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="174" name="com.sap.ip.bi.zen.rt.themelib.phx" provider="SAP"/>
+	<bundle bundleID="175" hasExtensibleAPI="true" localization="plugin" name="SAP BusinessObjects Design Studio (UI Framework)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="172" hasExtensibleAPI="true" name="SAP BusinessObjects Design Studio (metadata)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="419" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="e4-ide-application.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="173" name="com.sap.ip.bi.zen.rt.state">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="410" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="414" class="org.eclipse.ui.console.ConsolePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="413" class="org.eclipse.ui.internal.cheatsheets.CheatSheetPlugin" localization="plugin" name="%PLUGIN_NAME" provider="%PROVIDER_NAME"/>
+	<bundle bundleID="412" class="org.eclipse.ui.internal.browser.WebBrowserUIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="411" class="org.eclipse.ui.internal.UIPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="220" name="JSON Library" provider="SpringSource"/>
+	<bundle bundleID="221" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="222" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="223" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="224" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="327" localization="plugin" name="%pluginName" provider="%pluginProvider"/>
+	<bundle bundleID="225" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="328" class="org.eclipse.equinox.console.command.adapter.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="226" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="329" class="org.eclipse.equinox.internal.ds.Activator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="227" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="188" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="228" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="323" class="org.eclipse.emf.workspace.ui.internal.EMFWorkbenchUIPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="187" name="HaMS (HANA Metadata Service)" provider="SAP AG"/>
+	<bundle bundleID="229" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="324" class="org.eclipse.equinox.internal.app.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="325" class="org.eclipse.equinox.bidi.internal.StructuredTextActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="189" localization="plugin" name="Semantic Layer SDK" provider="SAP BusinessObjects">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="326" class="org.eclipse.core.internal.runtime.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="320" class="org.eclipse.emf.transaction.ui.internal.EMFTransactionUIPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="321" class="org.eclipse.emf.validation.internal.EMFModelValidationPlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="322" class="org.eclipse.emf.workspace.internal.EMFWorkspacePlugin$Implementation" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="427" class="org.eclipse.ui.internal.views.properties.tabbed.TabbedPropertyViewPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="426" class="org.eclipse.ui.internal.views.log.Activator" localization="plugin" name="%name" provider="%provider-name"/>
+	<bundle bundleID="180" name="SAP Logging API" provider="SAP AG"/>
+	<bundle bundleID="429" class="org.eclipse.ui.internal.WorkbenchPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="e4-workbench.jar"/>
+		<library name="compatibility.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="181" class="com.sap.languages.core.internal.LanguagesActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="428" localization="fragment-win32" name="%fragmentName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="182" name="OSGI Wrapper for Mozzilla Rhino JS">
+		<library name="rhino-1.7R4.jar"/>
+	</bundle>
+	<bundle bundleID="183"/>
+	<bundle bundleID="184" name="EMF Tools for SL" provider="SAP BusinessObjects"/>
+	<bundle bundleID="185" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="186" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="421" class="org.eclipse.ui.internal.intro.universal.UniversalIntroPlugin" localization="plugin" name="%plugin_name" provider="%provider_name">
+		<library name="universal.jar"/>
+	</bundle>
+	<bundle bundleID="420" class="org.eclipse.ui.internal.intro.impl.IntroPlugin" localization="plugin" name="%plugin_name" provider="%provider_name"/>
+	<bundle bundleID="423" class="org.eclipse.ui.internal.navigator.resources.plugin.WorkbenchNavigatorPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="422" class="org.eclipse.ui.internal.navigator.NavigatorPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="425" class="org.eclipse.ui.internal.views.ViewsPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="424" class="org.eclipse.ui.internal.net.Activator" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER"/>
+	<bundle bundleID="116" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.runtime" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="117" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.runtime.scripting" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="114" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.items.generic" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="115" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.items.htmlattributes" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="112" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.items.analysis" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="113" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.items.bodyattributes" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="110" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.deploytime" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="111" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.dialogsframework" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="118" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.runtime.template" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="119" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.scripting" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="435" name="JSR-45 Smap installer" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="436" class="org.eclipse.xtext.ui.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="433" class="org.eclipse.xtext.builder.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="434" localization="fragment" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="431" class="org.eclipse.update.internal.configurator.ConfigurationActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="432" class="org.eclipse.xtext.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="430" class="org.eclipse.ui.internal.texteditor.TextEditorPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="439" name="Xbase Runtime Library" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="437" class="org.eclipse.xtext.ui.shared.internal.Activator" localization="plugin" name="Xtext UI Shared" provider="Eclipse Modeling Project"/>
+	<bundle bundleID="438" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="125" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="126" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="127" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="300" class="org.eclipse.ecf.internal.filetransfer.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="128" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="121" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.uiitem" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="302" class="org.eclipse.ecf.internal.provider.filetransfer.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="122" class="com.sap.ip.bi.zen.ZenPlugin" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="301" class="org.eclipse.ecf.internal.core.identity.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="123" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="304" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="124" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="303" class="org.eclipse.ecf.internal.provider.filetransfer.httpclient4.Activator" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="306" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="305" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="308" class="org.eclipse.emf.common.CommonPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="307" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="129" class="com.sap.ip.bi.zen.ZenPluginBase" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="309" class="org.eclipse.emf.common.ui.CommonUIPlugin$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="444" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="445" name="Xml Pull Parser" provider="Business Objects an SAP Company">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="446" name="Design Studio SDK Extension Sample Colored Box" provider="SAP"/>
+	<bundle bundleID="440" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="441" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="442" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="443" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="120" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.uiframework" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="134" name="SAP Design Studio Chart Guide" provider="SAP SE"/>
+	<bundle bundleID="135" localization="plugin" name="%name" provider="%providerName"/>
+	<bundle bundleID="132" class="com.sap.ip.bi.zen.connectivity.ConnectivityPlugin" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="133" localization="plugin" name="SAP BusinessObjects Design Studio (Content)" provider="SAP SE"/>
+	<bundle bundleID="138" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.zen.office" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="139" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.zen.pageexport" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="136" localization="plugin" name="%name" provider="%providerName"/>
+	<bundle bundleID="137" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="131" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="130" name="SAP BusinessObjects Design Studio (boesdk libraries)" provider="SAP SE">
+		<library name="lib/axis2-kernel-1.3.jar"/>
+		<library name="lib/commons-httpclient-3.0.1.jar"/>
+		<library name="lib/commons-logging.jar"/>
+		<library name="lib/dsws-biplatform.jar"/>
+		<library name="lib/dsws-common-util.jar"/>
+		<library name="lib/dsws-common.jar"/>
+		<library name="lib/dsws-session.jar"/>
+		<library name="lib/TraceLog.jar"/>
+		<library name="lib/wsdl4j-1.6.2.jar"/>
+		<library name="lib/xmlbeans-2.3.0.jar"/>
+		<library name="lib/XmlSchema-1.3.2.jar"/>
+		<library name="lib/celib.jar"/>
+		<library name="lib/logging.jar"/>
+		<library name="lib/zen.boe.plugin.dsws.jar"/>
+		<library name="lib/axiom-api-1.2.5.jar"/>
+		<library name="lib/axiom-impl-1.2.5.jar"/>
+	</bundle>
+	<bundle bundleID="143" hasExtensibleAPI="true" localization="plugin" name="SAP BusinessObjects Design Studio (client servlet libraries)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="144" hasExtensibleAPI="true" localization="plugin" name="SAP BusinessObjects Design Studio (components)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="145" name="SAP BusinessObjects Design Studio (checkbox)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="146" name="SAP BusinessObjects Design Studio (image)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="147" name="SAP BusinessObjects Design Studio (context menu)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="148" name="SAP BusinessObjects Design Studio (crosstab)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="149" name="com.sap.ip.bi.zen.rt.components.crosstab.phx" provider="SAP"/>
+	<bundle bundleID="140" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="142" name="com.sap.ip.bi.zen.rt.bookmark">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="141" hasExtensibleAPI="true" name="SAP BusinessObjects Design Studio (dsl provider)" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="195" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="194" name="TraceLog" provider="SAP BusinessObjects"/>
+	<bundle bundleID="197" name="commons" provider="SAP"/>
+	<bundle bundleID="196" name="SAPUI5 Feature" provider="SAP"/>
+	<bundle bundleID="191" name="suite.smartbusiness" provider="SAP"/>
+	<bundle bundleID="190" name="SAP SL Tools Plugin" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="193" localization="plugin" name="SAP Commons Tools" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="192" name="suite-ui-commons" provider="SAP"/>
+	<bundle bundleID="198" name="comp" provider="SAP"/>
+	<bundle bundleID="199" name="core" provider="SAP"/>
+	<bundle bundleID="35" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="36" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="33" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+		<library name="lib/ngdbc.jar"/>
+	</bundle>
+	<bundle bundleID="34" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="39" name="Filesystem Plug-in" provider="SAP BusinessObjects"/>
+	<bundle bundleID="37" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="38" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="43" name="MDS Desktop Plug-in" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="42" class="com.businessobjects.mds.resource.MDResourceActivator" name="Resources Plug-in" provider="SAP BusinessObjects"/>
+	<bundle bundleID="41" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="40" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="22" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="23" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="24" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="25" name="Cms"/>
+	<bundle bundleID="26" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="27" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="28" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="29" name="MDS Integrity Rules" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="30" name="MDS OLAP" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="32" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+		<library name="external:$essbase.api.dir$/ess_japi.jar"/>
+		<library name="external:$essbase.api.dir$/ess_es_server.jar"/>
+		<library name="external:$essbase.logger.dir$/ojdl.jar"/>
+	</bundle>
+	<bundle bundleID="31" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="19" name="Foundation Logging" provider="SAP AG"/>
+	<bundle bundleID="17" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="18" name="BOE foundation" provider="Business Objects">
+		<library name="."/>
+		<library name="lib/TraceLog.jar"/>
+		<library name="lib/TraceLogLog4j.jar"/>
+		<library name="lib/logging.jar"/>
+		<library name="lib/com.sap.js.passport.api.jar"/>
+	</bundle>
+	<bundle bundleID="15" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="16" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="13" name="Session Plug-in" provider="SAP BusinessObjects"/>
+	<bundle bundleID="14" name="Logging configuration" provider="SAP Business Objects"/>
+	<bundle bundleID="11" name="Crypto BCM and legacy" provider="SAP Business Objects">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="12" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="21" name="InformationEngine Plug-in" provider="SAP BusinessObjects">
+		<library name="lib/IEPlugin_idl.jar"/>
+		<library name="lib/ie_proxies.jar"/>
+	</bundle>
+	<bundle bundleID="20" name="Internationalization tools for Java" provider="Business Objects"/>
+	<bundle bundleID="10" name="DataFederatorSourceDefiner" provider="SAP BusinessObjects"/>
+	<bundle bundleID="79" name="Connectivity Foundation" provider="BusinessObjects, an SAP Company">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="78" class="com.sap.connectivity.cs.da.eclipse.internal.DataAccessActivator" name="Connection Server Corba mode" provider="SAP BusinessObjects">
+		<library name="lib/cs_da_eclipse.jar"/>
+	</bundle>
+	<bundle bundleID="77" name="Connectivity CIS" provider="SAP BusinessObjects">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="82" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.appl.server.service" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="83" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.base" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="80" name="SAP Data Explorer" provider="SAP AG"/>
+	<bundle bundleID="81" class="com.sap.dataexplorer.ui.internal.Activator" localization="plugin" name="SAP Data Explorer UI" provider="SAP AG"/>
+	<bundle bundleID="86" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.base.framework" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="87" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.base.xml" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="84" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.base.application" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="85" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.base.formatter" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="67" name="apf-lib" provider="SAP"/>
+	<bundle bundleID="66" localization="plugin" name="%bundleName" provider="%venderName"/>
+	<bundle bundleID="69" name="ui" provider="SAP"/>
+	<bundle bundleID="68" name="scfld.md" provider="SAP"/>
+	<bundle bundleID="70" name="SAP Check Integrity Core" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="71" class="com.sap.checkintegrity.ui.internal.IntegrityActivator" name="SAP Check Integrity UI" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="72" name="collaboration-commons" provider="SAP"/>
+	<bundle bundleID="73" name="OSGI Wrapper for Google ZXing Library">
+		<library name="core-1.7.jar"/>
+		<library name="javase-1.7.jar"/>
+	</bundle>
+	<bundle bundleID="74" name="SAP JCo 3.1 OSGi Bundle" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="75" class="com.sap.mw.jco3.eclipse.internal.Activator" localization="plugin" name="%pluginName" provider="%pluginProvider">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="76" name="SAP JCo 3.1 OSGi NTAMD64 Fragment" provider="SAP AG"/>
+	<bundle bundleID="59" name="A rendering library" provider="Business Objects, Inc.(C)"/>
+	<bundle bundleID="58" class="com.businessobjects.ui.format.internal.FormatActivator" name="Format" provider="SAP BusinessObjects"/>
+	<bundle bundleID="57" name="Query Technic Tools" provider="SAP BusinessObjects"/>
+	<bundle bundleID="56" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="55" localization="plugin" name="SDK Common Tools and Utilities" provider="SAP Business Objects Division">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="64" hasExtensibleAPI="true" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor"/>
+	<bundle bundleID="65" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="icu-data.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="62" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="63" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="60" name="CVOM Plug-in" provider="Business Objects, Inc.(C)"/>
+	<bundle bundleID="61" name="Cvom_chart_lib Plug-in" provider="Business Objects, Inc.(C)"/>
+	<bundle bundleID="49" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="48" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="45" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="44" name="Secured Connection" provider="SAP BusinessObjects"/>
+	<bundle bundleID="47" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="46" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="51" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="52" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="53" name="BOE SLPlugins" provider="Business Objects">
+		<library name="."/>
+		<library name="lib/SL_plugins.jar"/>
+	</bundle>
+	<bundle bundleID="54" name="RepoAccess Plug-in" provider="SAP BusinessObjects">
+		<library name="lib/CTPlugin_idl.jar"/>
+		<library name="lib/GenericContainer_idl.jar"/>
+		<library name="lib/GenericContainer_proxy.jar"/>
+		<library name="lib/cdz_cluster_mgmt_types_idl.jar"/>
+		<library name="lib/inproc_container.jar"/>
+		<library name="lib/biplugins.jar"/>
+		<library name="lib/repo_proxy.jar"/>
+		<library name="lib/repo_proxy_jni.jar"/>
+		<library name="lib/RepositoryProxyInterface.jar"/>
+		<library name="lib/JNITools.jar"/>
+		<library name="lib/cdz_ext_lifecycle.jar"/>
+		<library name="lib/cdz_ext.jar"/>
+		<library name="lib/cdzextidl.jar"/>
+		<library name="lib/jtools.jar"/>
+	</bundle>
+	<bundle bundleID="50" name="MDS Platform Services" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="281" class="org.eclipse.e4.core.commands.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="280" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="285" class="org.eclipse.e4.core.internal.services.ServicesActivator" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="injection_annotations.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="284" class="org.eclipse.e4.core.di.internal.extensions.DIEActivator" localization="fragment" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="283" class="org.eclipse.e4.core.internal.di.osgi.DIActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="282" class="org.eclipse.e4.core.internal.contexts.osgi.ContextsActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="288" class="org.eclipse.e4.ui.internal.css.swt.CSSActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="289" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="286" class="org.eclipse.e4.ui.bindings.internal.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="287" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="270" class="org.eclipse.core.internal.net.Activator" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER"/>
+	<bundle bundleID="272" class="org.eclipse.core.resources.ResourcesPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="271" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="274" class="org.eclipse.core.internal.runtime.PlatformActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="273" localization="plugin" name="%win32FragmentName" provider="%providerName"/>
+	<bundle bundleID="275" class="org.eclipse.core.internal.plugins.CompatibilityActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="276" localization="fragment" name="%fragmentName" patch="true" provider="%providerName">
+		<library name="runtime_registry_compatibility.jar"/>
+	</bundle>
+	<bundle bundleID="277" class="org.eclipse.core.variables.VariablesPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="278" class="org.eclipse.debug.core.DebugPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="279" class="org.eclipse.debug.internal.ui.DebugUIPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="109" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.web.dataprovider" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="108" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.service.generic" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="107" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.service.bics" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="106" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.rfc.jco3" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="105" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.metadata" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="104" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.km.base" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="103" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.framework" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="102" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.external.ngdbc.wrapper" provider="SAP AG">
+		<library name="com.sap.db.ngdbc-1.00.70.00.386119.jar"/>
+	</bundle>
+	<bundle bundleID="99" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.export.lib" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="101" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.export.printformats" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="100" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.export.model" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="98" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.conv.dac.res.file" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="97" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.conv.dac.res.bi.os" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="391" name="Jetty :: Utilities" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="96" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.conv.dac.res.bi" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="390" name="Jetty :: Servlet Handling" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="95" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.conv.dac.res.bae" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="393" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="94" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.client.servlet.lib" provider="SAP SE">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="392" class="org.eclipse.jface.internal.JFaceActivator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="93" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.bics.shared" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="395" class="org.eclipse.jsch.internal.core.JSchCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="92" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.bics.os" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="394" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="91" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.bics.modules" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="90" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.bics.km" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="294" class="org.eclipse.e4.ui.internal.workbench.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="293" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="296" class="org.eclipse.e4.ui.internal.workbench.renderers.swt.SWTRenderersActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="295" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="290" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="292" class="org.eclipse.e4.ui.internal.services.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="291" class="org.eclipse.e4.ui.model.application.impl.MWorkbenchModelActivator$Implementation" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="297" class="org.eclipse.e4.ui.internal.workbench.swt.WorkbenchSWTActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="298" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="299" class="org.eclipse.ecf.internal.core.ECFPlugin" localization="plugin" name="%plugin.name" provider="%plugin.provider"/>
+	<bundle bundleID="396" class="org.eclipse.jsch.internal.ui.JSchUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="397" class="org.eclipse.ltk.internal.core.refactoring.RefactoringCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="398" class="org.eclipse.ltk.internal.ui.refactoring.RefactoringUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="399" class="org.eclipse.osgi.framework.internal.core.SystemBundleActivator" hasExtensibleAPI="true" localization="systembundle" name="%systemBundle" provider="%eclipse.org"/>
+	<bundle bundleID="88" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.bics" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="89" hasExtensibleAPI="true" localization="plugin" name="com.sap.ip.bi.bics.classic" provider="SAP AG">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="240" class="org.apache.felix.gogo.shell.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="241" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="383" class="org.eclipse.help.internal.webapp.HelpWebappPlugin" localization="plugin" name="%help_webapp_plugin_name" provider="%providerName"/>
+	<bundle bundleID="384" localization="bundle" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="381" class="org.eclipse.help.internal.base.HelpBasePlugin" localization="plugin" name="%help_base_plugin_name" provider="%providerName"/>
+	<bundle bundleID="382" class="org.eclipse.help.ui.internal.HelpUIPlugin" localization="plugin" name="%help_system_plugin_name" provider="%providerName"/>
+	<bundle bundleID="380" class="org.eclipse.help.internal.HelpPlugin" localization="plugin" name="%help_plugin_name" provider="%providerName"/>
+	<bundle bundleID="389" name="Jetty :: Server Core" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="388" name="Jetty :: Security" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="387" name="Jetty :: IO Utility" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="386" name="Jetty :: Http Utility" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="385" name="Jetty :: Continuation" provider="Eclipse Jetty Project"/>
+	<bundle bundleID="245" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="244" localization="plugin" name="%PLUGIN_NAME" provider="%PLUGIN_PROVIDER">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="243" localization="plugin" name="%Bundle-Name.0" provider="%Bundle-Vendor.0"/>
+	<bundle bundleID="242" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="249" name="org.apache.poi.ooxml.schemas">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="248" name="org.apache.poi.ooxml">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="247" name="org.apache.poi">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="246" localization="plugin" name="%bundle.name" provider="%provider.name"/>
+	<bundle bundleID="230" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="lib/ant-antlr.jar"/>
+		<library name="lib/ant-apache-bcel.jar"/>
+		<library name="lib/ant-apache-bsf.jar"/>
+		<library name="lib/ant-apache-log4j.jar"/>
+		<library name="lib/ant-apache-oro.jar"/>
+		<library name="lib/ant-apache-regexp.jar"/>
+		<library name="lib/ant-apache-resolver.jar"/>
+		<library name="lib/ant-apache-xalan2.jar"/>
+		<library name="lib/ant-commons-logging.jar"/>
+		<library name="lib/ant-commons-net.jar"/>
+		<library name="lib/ant-jai.jar"/>
+		<library name="lib/ant-javamail.jar"/>
+		<library name="lib/ant-jdepend.jar"/>
+		<library name="lib/ant-jmf.jar"/>
+		<library name="lib/ant-jsch.jar"/>
+		<library name="lib/ant-junit.jar"/>
+		<library name="lib/ant-junit4.jar"/>
+		<library name="lib/ant-launcher.jar"/>
+		<library name="lib/ant-netrexx.jar"/>
+		<library name="lib/ant-swing.jar"/>
+		<library name="lib/ant-testutil.jar"/>
+		<library name="lib/ant.jar"/>
+	</bundle>
+	<bundle bundleID="370" class="org.eclipse.equinox.internal.p2.updatesite.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="371" class="org.eclipse.core.internal.preferences.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="372" class="org.eclipse.core.internal.registry.osgi.Activator" hasExtensibleAPI="true" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="runtime_registry_compatibility.jar"/>
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="373" class="org.eclipse.equinox.internal.security.auth.AuthPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="379" class="org.eclipse.gef.internal.InternalGEFPlugin" localization="plugin" name="%Plugin.name" provider="%Plugin.providerName"/>
+	<bundle bundleID="239" class="org.apache.felix.gogo.runtime.activator.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="378" class="org.eclipse.equinox.internal.util.UtilActivator" localization="plugin" name="%bundleName" provider="%bundleVendor"/>
+	<bundle bundleID="375" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="374" class="org.eclipse.equinox.internal.security.ui.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="377" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="376" class="org.eclipse.equinox.internal.simpleconfigurator.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="232" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="231" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="234" name="org.apache.commons.codec" provider="SAP">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="233" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="236" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="235" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="238" class="org.apache.felix.gogo.command.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="237" localization="plugin" name="%bundleName" provider="%bundleProvider"/>
+	<bundle bundleID="262" class="org.eclipse.core.internal.databinding.observable.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="263" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="260" class="org.eclipse.core.internal.databinding.Activator" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="261" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="361" class="org.eclipse.equinox.internal.p2.touchpoint.eclipse.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="362" class="org.eclipse.equinox.internal.p2.touchpoint.natives.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="360" class="org.eclipse.equinox.p2.internal.repository.tools.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="366" class="org.eclipse.equinox.internal.p2.importexport.internal.ImportExportActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="365" localization="plugin" name="%Bundle-Name" provider="%Bundle-Vendor">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="364" class="org.eclipse.equinox.internal.p2.ui.ProvUIActivator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="363" class="org.eclipse.equinox.internal.p2.transport.ecf.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="369" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="368" class="org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdatePlugin" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="367" class="org.eclipse.equinox.internal.p2.ui.sdk.ProvSDKUIActivator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="269" class="org.eclipse.core.internal.jobs.JobActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="268" localization="fragment" name="%fragmentName" provider="%providerName"/>
+	<bundle bundleID="267" class="org.eclipse.core.internal.filesystem.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="266" class="org.eclipse.core.internal.filebuffers.FileBuffersPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="265" class="org.eclipse.core.externaltools.internal.ExternalToolsCore" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="264" class="org.eclipse.core.internal.expressions.ExpressionPlugin" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="250" name="org.apache.xmlbeans">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="251" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="aspectjrt.jar"/>
+	</bundle>
+	<bundle bundleID="252" name="org.codehaus.stax">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="350" class="org.eclipse.equinox.internal.p2.garbagecollector.GCActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="351" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="353" class="org.eclipse.equinox.internal.p2.metadata.repository.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="352" class="org.eclipse.equinox.internal.p2.metadata.MetadataActivator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="355" class="org.eclipse.equinox.internal.p2.publisher.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="354" class="org.eclipse.equinox.internal.p2.operations.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="357" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="356" class="org.eclipse.pde.internal.publishing.Activator" localization="plugin" name="%bundleName" provider="%providerName"/>
+	<bundle bundleID="359" class="org.eclipse.equinox.internal.p2.repository.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="358" class="org.eclipse.equinox.internal.p2.reconciler.dropins.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="258" localization="plugin" name="%pluginName" provider="%providerName">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="257" class="org.eclipse.compare.internal.win32.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="259" class="org.eclipse.core.internal.content.Activator" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="254" class="org.eclipse.ant.core.AntCorePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="253" name="org.dom4j">
+		<library name="."/>
+	</bundle>
+	<bundle bundleID="256" class="org.eclipse.compare.internal.core.ComparePlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+	<bundle bundleID="255" class="org.eclipse.compare.internal.CompareUIPlugin" localization="plugin" name="%pluginName" provider="%providerName"/>
+</map>
